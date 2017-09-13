@@ -7,7 +7,7 @@
   font-family: "Open Sans", sans-serif;
   box-shadow: 5px 10px 25px 0px rgba(46,61,73,0.25);
   padding: 30px;
-  margin: 10% 20%;
+  margin: 7% 20%;
 }
 /*Button styling*/
 button {
@@ -29,6 +29,8 @@ button:hover {
 }
 /*Input box styling*/
 input {
+  width: 25%;
+  height: 5%;
   padding: 10px;
   margin: 10px;
   font-size: .8em;
