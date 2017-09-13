@@ -7,30 +7,27 @@
   font-family: "Open Sans", sans-serif;
   box-shadow: 5px 10px 25px 0px rgba(46,61,73,0.25);
   padding: 30px;
-  margin: 7% 20%;
+  margin: 5% 20%;
 }
-/*Button styling*/
-button {
-  padding: 15px;
-  margin: 15px;
-  border-radius: 50px;
-  background-color: #02b3e4;
-  border: 0.12rem solid transparent;
-  color: white;
-  box-shadow: 8px 10px 15px 0px rgba(46,61,73,0.25);
+/*h2 styling*/
+h2 {
+  color: rgba(2,179,228,1);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,.15);
   border-radius: 0.35rem;
-  letter-spacing: 0.15rem;
-  font-size: .7em;
-  text-align: center;
+  padding: 2%;
 }
-button:hover {
-  box-shadow: 2px 3px 15px 0px rgba(46,61,73,0.45);
-  transition: all 0.4s ease;
+/*ul styling*/
+ul {
+  list-style: none;
+}
+li {
+  text-align: center;
+  margin-left: -40px;
+  letter-spacing: .1em;
+  padding: 10% 2%;
 }
 /*Input box styling*/
 input {
-  width: 25%;
-  height: 5%;
   padding: 10px;
   margin: 10px;
   font-size: .8em;
@@ -42,4 +39,23 @@ input:focus {
   outline: none; /*removes blue outline when user is on input box*/
   box-shadow: 0px 28px 6px -20px rgba(0,0,0,.15);
   transition: all 0.18s ease;
+}
+/*Button styling*/
+button {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 50px;
+  background-color: rgba(2,179,228,0.75);
+  border: 0.12rem solid transparent;
+  color: white;
+  box-shadow: 8px 10px 15px 0px rgba(46,61,73,0.25);
+  border-radius: 0.35rem;
+  letter-spacing: 0.15rem;
+  font-size: .7em;
+  text-align: center;
+}
+button:hover {
+  box-shadow: 2px 3px 15px 0px rgba(46,61,73,0.45);
+  transition: all 0.4s ease;
+  background-color: rgba(2,179,228,1);
 }
